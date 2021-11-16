@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList'
 import SearchBar from '../SearchBar/SearchBar'
+import Yelp from '../../util/Yelp'
 
 // This is static data for use in building the Business component.
 const business = {
