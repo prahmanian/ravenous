@@ -33,7 +33,7 @@ class App extends React.Component {
       <div className='APP'>
           <h1>ravenous</h1>
           <SearchBar />
-          <BusinessList />
+          <BusinessList businesses={businesses}/>
       </div>
     )
   }
