@@ -19,14 +19,14 @@ const Yelp = {
                     return {
                         id: business.id,
                         imageSrc: null,
-                        name: null,
-                        address: null,
-                        city: null,
-                        state: null,
-                        zipCode: null,
-                        category: null,
-                        rating: null,
-                        reviewCount: null,
+                        name: "null",
+                        address: 'null',
+                        city: 'null',
+                        state: 'null',
+                        zipCode: 'null',
+                        category: 'null',
+                        rating: 4,
+                        reviewCount: 4,
                     }
                 })
             }
