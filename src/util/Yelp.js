@@ -18,15 +18,15 @@ const Yelp = {
                     console.log(business)
                     return {
                         id: business.id,
-                        imageSrc: null,
-                        name: "null",
-                        address: 'null',
-                        city: 'null',
-                        state: 'null',
-                        zipCode: 'null',
-                        category: 'null',
-                        rating: 4,
-                        reviewCount: 4,
+                        imageSrc: business.image_url,
+                        name: business.name,
+                        address: business.location.address1,
+                        city: business.location.city,
+                        state: business.location.state,
+                        zipCode: business.location.zip_code,
+                        category: business.categories[0].title,
+                        rating: business.rating,
+                        reviewCount: business.review_count,
                     }
                 })
             }
