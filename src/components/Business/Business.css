@@ -20,18 +20,21 @@ font-weight: 600;
 .Business-information {
 display: flex;
 justify-content: space-between;
+margin: 0;
 }
 
 .Business-information p {
 font-size: .88rem;
 font-weight: 300;
 line-height: 1rem;
+margin: 0;
 }
 
 .Business-address {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+margin: 0;
 }
 
 .Business-reviews {
@@ -39,11 +42,13 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 text-align: right;
+margin: 0;
 }
 
 .Business-reviews h3 {
 color: #CCA353;
 font-weight: 600;
+margin: 0;
 }
 
 .Business-reviews .rating {
